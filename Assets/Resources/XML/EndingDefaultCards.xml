@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<ArrayOfDefaultCard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DefaultCard>
+    <Id>100</Id>
+    <Text>Вы поругались с преподавателем. Его экзамен оказался для вас последним...</Text>
+    <Description />
+    <Action1>
+      <Text>...</Text>
+      <CharismaChange>0</CharismaChange>
+      <IntelligenceChange>0</IntelligenceChange>
+      <StaminaChange>0</StaminaChange>
+      <AchievementId>-1</AchievementId>
+    </Action1>
+    <Action2>
+      <Text>...</Text>
+      <CharismaChange>0</CharismaChange>
+      <IntelligenceChange>0</IntelligenceChange>
+      <StaminaChange>0</StaminaChange>
+      <AchievementId>-1</AchievementId>
+    </Action2>
+    <PicturePath>CardPictures/bad_end_charisma</PicturePath>
+    <DrawProbability>1</DrawProbability>
+  </DefaultCard>
+  <DefaultCard>
+    <Id>101</Id>
+    <Text>Вы мало сидели над учебниками и накопили 70 долгов. Вас отчисляют за неуспеваемость...</Text>
+    <Description />
+    <Action1>
+      <Text>...</Text>
+      <CharismaChange>0</CharismaChange>
+      <IntelligenceChange>0</IntelligenceChange>
+      <StaminaChange>0</StaminaChange>
+      <AchievementId>-1</AchievementId>
+    </Action1>
+    <Action2>
+      <Text>...</Text>
+      <CharismaChange>0</CharismaChange>
+      <IntelligenceChange>0</IntelligenceChange>
+      <StaminaChange>0</StaminaChange>
+      <AchievementId>-1</AchievementId>
+    </Action2>
+    <PicturePath>CardPictures/bad_end_intelligence</PicturePath>
+    <DrawProbability>1</DrawProbability>
+  </DefaultCard>
+  <DefaultCard>
+    <Id>102</Id>
+    <Text>Нельзя забывать и об отдыхе. Тотальные усталость и недосып свели вас в могилу...</Text>
+    <Description />
+    <Action1>
+      <Text>...</Text>
+      <CharismaChange>0</CharismaChange>
+      <IntelligenceChange>0</IntelligenceChange>
+      <StaminaChange>0</StaminaChange>
+      <AchievementId>-1</AchievementId>
+    </Action1>
+    <Action2>
+      <Text>...</Text>
+      <CharismaChange>0</CharismaChange>
+      <IntelligenceChange>0</IntelligenceChange>
+      <StaminaChange>0</StaminaChange>
+      <AchievementId>-1</AchievementId>
+    </Action2>
+    <PicturePath>CardPictures/bad_end_stamina</PicturePath>
+    <DrawProbability>1</DrawProbability>
+  </DefaultCard>
+  <DefaultCard>
+    <Id>103</Id>
+    <Text>Вы успешно доучились и получили диплом! Поздравляем!!!</Text>
+    <Description />
+    <Action1>
+      <Text>...</Text>
+      <CharismaChange>0</CharismaChange>
+      <IntelligenceChange>0</IntelligenceChange>
+      <StaminaChange>0</StaminaChange>
+      <AchievementId>-1</AchievementId>
+    </Action1>
+    <Action2>
+      <Text>...</Text>
+      <CharismaChange>0</CharismaChange>
+      <IntelligenceChange>0</IntelligenceChange>
+      <StaminaChange>0</StaminaChange>
+      <AchievementId>-1</AchievementId>
+    </Action2>
+    <PicturePath>CardPictures/good_end_calendar_rick_astley</PicturePath>
+    <DrawProbability>1</DrawProbability>
+  </DefaultCard>
+</ArrayOfDefaultCard>

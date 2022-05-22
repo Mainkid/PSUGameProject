@@ -1,0 +1,615 @@
+<?xml version="1.0"?>
+<ArrayOfDefaultCard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DefaultCard>
+    <Id>1</Id>
+    <Text>По дороге на физкультуру вы встретили белку</Text>
+    <Description />
+    <Action1>
+      <Text>Сфоткать и выложить</Text>
+      <CharismaChange>2</CharismaChange>
+      <IntelligenceChange>-1</IntelligenceChange>
+      <StaminaChange>0</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action1>
+    <Action2>
+      <Text>Обойти</Text>
+      <CharismaChange>0</CharismaChange>
+      <IntelligenceChange>1</IntelligenceChange>
+      <StaminaChange>-1</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action2>
+    <PicturePath>CardPictures/fizra_with_squirrel</PicturePath>
+    <DrawProbability>1</DrawProbability>
+  </DefaultCard>
+  <DefaultCard>
+    <Id>2</Id>
+    <Text>Сайт с расписанием опять упал, а какие у вас завтра пары, вы так и не узнали</Text>
+    <Description />
+    <Action1>
+      <Text>Попытаться достать сайт из кэша</Text>
+      <CharismaChange>0</CharismaChange>
+      <IntelligenceChange>2</IntelligenceChange>
+      <StaminaChange>-1</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action1>
+    <Action2>
+      <Text>Спросить у старосты</Text>
+      <CharismaChange>1</CharismaChange>
+      <IntelligenceChange>0</IntelligenceChange>
+      <StaminaChange>0</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action2>
+    <PicturePath>CardPictures/etiz</PicturePath>
+    <DrawProbability>0.25</DrawProbability>
+  </DefaultCard>
+  <DefaultCard>
+    <Id>3</Id>
+    <Text>О, вы заметили нового преподавателя, но ничего не знаете о нем</Text>
+    <Description />
+    <Action1>
+      <Text>Сохранить интригу и дождаться пары</Text>
+      <CharismaChange>0</CharismaChange>
+      <IntelligenceChange>0</IntelligenceChange>
+      <StaminaChange>-2</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action1>
+    <Action2>
+      <Text>Спросить у старшекурсников</Text>
+      <CharismaChange>1</CharismaChange>
+      <IntelligenceChange>0</IntelligenceChange>
+      <StaminaChange>-1</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action2>
+    <PicturePath>CardPictures/etiz</PicturePath>
+    <DrawProbability>1</DrawProbability>
+  </DefaultCard>
+  <DefaultCard>
+    <Id>4</Id>
+    <Text>В библиотеке вы нашли множество книг, способных усмирить вашу любознательность. Что читаем сегодня?</Text>
+    <Description />
+    <Action1>
+      <Text>История геноцида Армян</Text>
+      <CharismaChange>0</CharismaChange>
+      <IntelligenceChange>1</IntelligenceChange>
+      <StaminaChange>-1</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action1>
+    <Action2>
+      <Text>Коллекционное издание сборника анекдотов Романа Трахтенберга</Text>
+      <CharismaChange>1</CharismaChange>
+      <IntelligenceChange>-2</IntelligenceChange>
+      <StaminaChange>0</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action2>
+    <PicturePath>CardPictures/library_with_a_book</PicturePath>
+    <DrawProbability>0.25</DrawProbability>
+  </DefaultCard>
+  <DefaultCard>
+    <Id>5</Id>
+    <Text>О нет, опять надо заполнять пятнадцать отзывов о преподавателях</Text>
+    <Description />
+    <Action1>
+      <Text>Прокликать случайно</Text>
+      <CharismaChange>0</CharismaChange>
+      <IntelligenceChange>-1</IntelligenceChange>
+      <StaminaChange>1</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action1>
+    <Action2>
+      <Text>Собраться с мыслями и написать всю правду о преподавателях</Text>
+      <CharismaChange>2</CharismaChange>
+      <IntelligenceChange>0</IntelligenceChange>
+      <StaminaChange>-3</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action2>
+    <PicturePath>CardPictures/etiz</PicturePath>
+    <DrawProbability>1</DrawProbability>
+  </DefaultCard>
+  <DefaultCard>
+    <Id>6</Id>
+    <Text>Пары закончились, пора подготовиться к матанализу. Что будете делать?</Text>
+    <Description />
+    <Action1>
+      <Text>Почитать Демидовича</Text>
+      <CharismaChange>0</CharismaChange>
+      <IntelligenceChange>1</IntelligenceChange>
+      <StaminaChange>-1</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action1>
+    <Action2>
+      <Text>Почитать Антидемидовича</Text>
+      <CharismaChange>0</CharismaChange>
+      <IntelligenceChange>-1</IntelligenceChange>
+      <StaminaChange>1</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action2>
+    <PicturePath>CardPictures/library_with_a_book</PicturePath>
+    <DrawProbability>1</DrawProbability>
+  </DefaultCard>
+  <DefaultCard>
+    <Id>7</Id>
+    <Text>Во время перерыва вы встретили одногруппников у фонтана</Text>
+    <Description />
+    <Action1>
+      <Text>Подойти поговорить</Text>
+      <CharismaChange>3</CharismaChange>
+      <IntelligenceChange>-1</IntelligenceChange>
+      <StaminaChange>-1</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action1>
+    <Action2>
+      <Text>Пройти мимо</Text>
+      <CharismaChange>-3</CharismaChange>
+      <IntelligenceChange>1</IntelligenceChange>
+      <StaminaChange>0</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action2>
+    <PicturePath>CardPictures/fountain_gays_bench</PicturePath>
+    <DrawProbability>0.25</DrawProbability>
+  </DefaultCard>
+  <DefaultCard>
+    <Id>8</Id>
+    <Text>Ммм... Чувствуете запах? Люблю запах беляшей поутру... Что-то покупаете?</Text>
+    <Description />
+    <Action1>
+      <Text>Купить cамсу</Text>
+      <CharismaChange>-1</CharismaChange>
+      <IntelligenceChange>0</IntelligenceChange>
+      <StaminaChange>0</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action1>
+    <Action2>
+      <Text>Купить энергетик</Text>
+      <CharismaChange>0</CharismaChange>
+      <IntelligenceChange>0</IntelligenceChange>
+      <StaminaChange>1</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action2>
+    <PicturePath>CardPictures/buffet</PicturePath>
+    <DrawProbability>1</DrawProbability>
+  </DefaultCard>
+  <DefaultCard>
+    <Id>9</Id>
+    <Text>Настало время собираться на физкультуру, но идти так не хочется! Как поступить?</Text>
+    <Description />
+    <Action1>
+      <Text>Пересилить себя и пойти</Text>
+      <CharismaChange>1</CharismaChange>
+      <IntelligenceChange>0</IntelligenceChange>
+      <StaminaChange>-3</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action1>
+    <Action2>
+      <Text>Забить</Text>
+      <CharismaChange>-1</CharismaChange>
+      <IntelligenceChange>-2</IntelligenceChange>
+      <StaminaChange>1</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action2>
+    <PicturePath>CardPictures/fizra_with_people</PicturePath>
+    <DrawProbability>1</DrawProbability>
+  </DefaultCard>
+  <DefaultCard>
+    <Id>10</Id>
+    <Text>Подходя к университету, вы неожиданно погрузились в дымовую завесу. Источником этого беспредела являются ваши одногруппники.</Text>
+    <Description />
+    <Action1>
+      <Text>Встать рядом с одногруппниками</Text>
+      <CharismaChange>1</CharismaChange>
+      <IntelligenceChange>-1</IntelligenceChange>
+      <StaminaChange>-1</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action1>
+    <Action2>
+      <Text>Пойти наугад </Text>
+      <CharismaChange>-1</CharismaChange>
+      <IntelligenceChange>2</IntelligenceChange>
+      <StaminaChange>0</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action2>
+    <PicturePath>CardPictures/smoking_room</PicturePath>
+    <DrawProbability>0.25</DrawProbability>
+  </DefaultCard>
+  <DefaultCard>
+    <Id>11</Id>
+    <Text>Поздравляю, ты в ботаническом саду! О-о-о, ты увидел в одной из оранежерей ультраредкое растение, не хочешь сорвать и подарить кому-то?</Text>
+    <Description />
+    <Action1>
+      <Text>Сорвать</Text>
+      <CharismaChange>2</CharismaChange>
+      <IntelligenceChange>-3</IntelligenceChange>
+      <StaminaChange>-1</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action1>
+    <Action2>
+      <Text>Пройти мимо</Text>
+      <CharismaChange>0</CharismaChange>
+      <IntelligenceChange>1</IntelligenceChange>
+      <StaminaChange>1</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action2>
+    <PicturePath>CardPictures/botanical_garden</PicturePath>
+    <DrawProbability>0.05</DrawProbability>
+  </DefaultCard>
+  <DefaultCard>
+    <Id>12</Id>
+    <Text>О, нет. Вы забыли поставить плюсик во время перекличке на дистанционной паре. Можно ворваться в голосовой чат и исправить положение</Text>
+    <Description />
+    <Action1>
+      <Text>Убедить, что вы были</Text>
+      <CharismaChange>-1</CharismaChange>
+      <IntelligenceChange>0</IntelligenceChange>
+      <StaminaChange>-1</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action1>
+    <Action2>
+      <Text>Проигнорировать</Text>
+      <CharismaChange>0</CharismaChange>
+      <IntelligenceChange>-1</IntelligenceChange>
+      <StaminaChange>1</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action2>
+    <PicturePath>CardPictures/remote_control</PicturePath>
+    <DrawProbability>1</DrawProbability>
+  </DefaultCard>
+  <DefaultCard>
+    <Id>13</Id>
+    <Text>Скоро студенческая Весна. Одногруппницы предложили вам поучаствовать в танцах</Text>
+    <Description />
+    <Action1>
+      <Text>Согласиться</Text>
+      <CharismaChange>3</CharismaChange>
+      <IntelligenceChange>-3</IntelligenceChange>
+      <StaminaChange>-3</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds>
+        <int>14</int>
+      </ConditionalCardIds>
+    </Action1>
+    <Action2>
+      <Text>Отказаться</Text>
+      <CharismaChange>-3</CharismaChange>
+      <IntelligenceChange>2</IntelligenceChange>
+      <StaminaChange>1</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action2>
+    <PicturePath>CardPictures/sdk_girls_dancing</PicturePath>
+    <DrawProbability>0.05</DrawProbability>
+  </DefaultCard>
+  <DefaultCard>
+    <Id>15</Id>
+    <Text>Ты с другом бежишь круг на физре и вдруг замечаешь короткий путь</Text>
+    <Description />
+    <Action1>
+      <Text>Срезать</Text>
+      <CharismaChange>0</CharismaChange>
+      <IntelligenceChange>0</IntelligenceChange>
+      <StaminaChange>-1</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds>
+        <int>18</int>
+      </ConditionalCardIds>
+    </Action1>
+    <Action2>
+      <Text>Честно добежать круг</Text>
+      <CharismaChange>0</CharismaChange>
+      <IntelligenceChange>0</IntelligenceChange>
+      <StaminaChange>-2</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action2>
+    <PicturePath>CardPictures/fizra_with_people</PicturePath>
+    <DrawProbability>0.25</DrawProbability>
+  </DefaultCard>
+  <DefaultCard>
+    <Id>16</Id>
+    <Text>Вы придумали смешной (на ваш взгляд) мем про другой университет. Отправить в предложку группы с локальными мемами?</Text>
+    <Description />
+    <Action1>
+      <Text>Однозначно</Text>
+      <CharismaChange>2</CharismaChange>
+      <IntelligenceChange>-1</IntelligenceChange>
+      <StaminaChange>-1</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action1>
+    <Action2>
+      <Text>Не стоит</Text>
+      <CharismaChange>-1</CharismaChange>
+      <IntelligenceChange>0</IntelligenceChange>
+      <StaminaChange>1</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action2>
+    <PicturePath>CardPictures/fountain_bench</PicturePath>
+    <DrawProbability>1</DrawProbability>
+  </DefaultCard>
+  <DefaultCard>
+    <Id>17</Id>
+    <Text>Вы проходите мимо СДК и слышите, как он буквально заливается смехом! Студенческая весна? Да нет же, КВН! Пойти посмотреть?</Text>
+    <Description />
+    <Action1>
+      <Text>Да</Text>
+      <CharismaChange>1</CharismaChange>
+      <IntelligenceChange>0</IntelligenceChange>
+      <StaminaChange>-1</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action1>
+    <Action2>
+      <Text>Нет</Text>
+      <CharismaChange>0</CharismaChange>
+      <IntelligenceChange>0</IntelligenceChange>
+      <StaminaChange>0</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action2>
+    <PicturePath>CardPictures/sdk_girls_dancing</PicturePath>
+    <DrawProbability>1</DrawProbability>
+  </DefaultCard>
+  <DefaultCard>
+    <Id>19</Id>
+    <Text>Сегодня будет посвят, а там - девушка, которая вам нравится. Пойдем?</Text>
+    <Description />
+    <Action1>
+      <Text>Да</Text>
+      <CharismaChange>3</CharismaChange>
+      <IntelligenceChange>-2</IntelligenceChange>
+      <StaminaChange>-1</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action1>
+    <Action2>
+      <Text>Нет</Text>
+      <CharismaChange>-1</CharismaChange>
+      <IntelligenceChange>0</IntelligenceChange>
+      <StaminaChange>0</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action2>
+    <PicturePath>CardPictures/female_friend_smile</PicturePath>
+    <DrawProbability>0.25</DrawProbability>
+  </DefaultCard>
+  <DefaultCard>
+    <Id>20</Id>
+    <Text>Пары в субботу, что может быть хуже? Ах да, пары в субботу по истории... Пропустим?</Text>
+    <Description />
+    <Action1>
+      <Text>Да</Text>
+      <CharismaChange>0</CharismaChange>
+      <IntelligenceChange>-1</IntelligenceChange>
+      <StaminaChange>1</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action1>
+    <Action2>
+      <Text>Нет</Text>
+      <CharismaChange>0</CharismaChange>
+      <IntelligenceChange>1</IntelligenceChange>
+      <StaminaChange>-1</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action2>
+    <PicturePath>CardPictures/audience_with_people</PicturePath>
+    <DrawProbability>1</DrawProbability>
+  </DefaultCard>
+  <DefaultCard>
+    <Id>21</Id>
+    <Text>Эх, кажется Вы опять забыли студенческий. Но рядом стоит охранник, стоит ли с ним поговорить? </Text>
+    <Description />
+    <Action1>
+      <Text>Объяснить ситуацию</Text>
+      <CharismaChange>1</CharismaChange>
+      <IntelligenceChange>0</IntelligenceChange>
+      <StaminaChange>0</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds>
+        <int>22</int>
+      </ConditionalCardIds>
+    </Action1>
+    <Action2>
+      <Text>Пройти напролом</Text>
+      <CharismaChange>-1</CharismaChange>
+      <IntelligenceChange>-1</IntelligenceChange>
+      <StaminaChange>-1</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action2>
+    <PicturePath>CardPictures/turnstile</PicturePath>
+    <DrawProbability>0.25</DrawProbability>
+  </DefaultCard>
+  <DefaultCard>
+    <Id>23</Id>
+    <Text>Преподователь по программированию на перфокартах со словами "Знай наших", начинает длительный экскурс в историю СССР</Text>
+    <Description />
+    <Action1>
+      <Text>Внимательно слушать</Text>
+      <CharismaChange>0</CharismaChange>
+      <IntelligenceChange>0</IntelligenceChange>
+      <StaminaChange>-2</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action1>
+    <Action2>
+      <Text>Попросить вернуться к теме</Text>
+      <CharismaChange>-1</CharismaChange>
+      <IntelligenceChange>1</IntelligenceChange>
+      <StaminaChange>0</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action2>
+    <PicturePath>CardPictures/teacher1_neutral</PicturePath>
+    <DrawProbability>0.25</DrawProbability>
+  </DefaultCard>
+  <DefaultCard>
+    <Id>24</Id>
+    <Text>Похоже, в этом месяце в честь наступающих праздников вы получили прибавку к стипендии. На что потратить?</Text>
+    <Description />
+    <Action1>
+      <Text>Купить новые шмотки</Text>
+      <CharismaChange>2</CharismaChange>
+      <IntelligenceChange>0</IntelligenceChange>
+      <StaminaChange>-2</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds>
+        <int>27</int>
+      </ConditionalCardIds>
+    </Action1>
+    <Action2>
+      <Text />
+      <CharismaChange>-1</CharismaChange>
+      <IntelligenceChange>3</IntelligenceChange>
+      <StaminaChange>0</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action2>
+    <PicturePath>CardPictures/blackberry_plus</PicturePath>
+    <DrawProbability>0.25</DrawProbability>
+  </DefaultCard>
+  <DefaultCard>
+    <Id>25</Id>
+    <Text>Навязчивый одногруппник заманивает вас в свою команду. Что за команда вы так и не поняли, но он крайне настойчив и требует ответ прямо сейчас.</Text>
+    <Description />
+    <Action1>
+      <Text>Согласиться</Text>
+      <CharismaChange>1</CharismaChange>
+      <IntelligenceChange>0</IntelligenceChange>
+      <StaminaChange>0</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds>
+        <int>26</int>
+      </ConditionalCardIds>
+    </Action1>
+    <Action2>
+      <Text>Отказаться</Text>
+      <CharismaChange>-1</CharismaChange>
+      <IntelligenceChange>0</IntelligenceChange>
+      <StaminaChange>0</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action2>
+    <PicturePath>CardPictures/bothersome_smile</PicturePath>
+    <DrawProbability>1</DrawProbability>
+  </DefaultCard>
+  <DefaultCard>
+    <Id>29</Id>
+    <Text>Опять эти дистанционные лекции!</Text>
+    <Description />
+    <Action1>
+      <Text>Спать</Text>
+      <CharismaChange>0</CharismaChange>
+      <IntelligenceChange>-1</IntelligenceChange>
+      <StaminaChange>3</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action1>
+    <Action2>
+      <Text>Спать</Text>
+      <CharismaChange>0</CharismaChange>
+      <IntelligenceChange>-1</IntelligenceChange>
+      <StaminaChange>3</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action2>
+    <PicturePath>CardPictures/remote_control_sleeping_dude</PicturePath>
+    <DrawProbability>1</DrawProbability>
+  </DefaultCard>
+  <DefaultCard>
+    <Id>30</Id>
+    <Text>Кажется, после такой бурной вечеринки у вас совсем нет сил готовиться. Что же делать?</Text>
+    <Description />
+    <Action1>
+      <Text>Попытаться что-то выучить</Text>
+      <CharismaChange>0</CharismaChange>
+      <IntelligenceChange>2</IntelligenceChange>
+      <StaminaChange>-3</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds>
+        <int>33</int>
+      </ConditionalCardIds>
+    </Action1>
+    <Action2>
+      <Text>Приготовить шпаргалки</Text>
+      <CharismaChange>1</CharismaChange>
+      <IntelligenceChange>1</IntelligenceChange>
+      <StaminaChange>-2</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds>
+        <int>33</int>
+      </ConditionalCardIds>
+    </Action2>
+    <PicturePath>CardPictures/reading_on_pc</PicturePath>
+    <DrawProbability>0.05</DrawProbability>
+  </DefaultCard>
+  <DefaultCard>
+    <Id>34</Id>
+    <Text>Похоже, ваша группа сговорилась прогулять пару. Как поступите?</Text>
+    <Description />
+    <Action1>
+      <Text> Присоединиться</Text>
+      <CharismaChange>2</CharismaChange>
+      <IntelligenceChange>-3</IntelligenceChange>
+      <StaminaChange>0</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action1>
+    <Action2>
+      <Text>Пойти одному</Text>
+      <CharismaChange>-2</CharismaChange>
+      <IntelligenceChange>2</IntelligenceChange>
+      <StaminaChange>-1</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action2>
+    <PicturePath>CardPictures/audience_without_people</PicturePath>
+    <DrawProbability>0.25</DrawProbability>
+  </DefaultCard>
+  <DefaultCard>
+    <Id>35</Id>
+    <Text>В буфете опять заняты все столики. Вы видите знакомых за одним из них.</Text>
+    <Description />
+    <Action1>
+      <Text>Подсесть</Text>
+      <CharismaChange>2</CharismaChange>
+      <IntelligenceChange>0</IntelligenceChange>
+      <StaminaChange>-1</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action1>
+    <Action2>
+      <Text>Пойти есть в другое место</Text>
+      <CharismaChange>0</CharismaChange>
+      <IntelligenceChange>1</IntelligenceChange>
+      <StaminaChange>-1</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action2>
+    <PicturePath>CardPictures/buffet_with_girls</PicturePath>
+    <DrawProbability>1</DrawProbability>
+  </DefaultCard>
+</ArrayOfDefaultCard>

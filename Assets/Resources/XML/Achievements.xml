@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ArrayOfAchievement xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Achievement>
+    <Id>1</Id>
+    <Text>Поздраляю Воин, Вы проделали долгий путь!</Text>
+    <PicturePath>CardPictures/botanical_garden</PicturePath>
+    <isReceived>false</isReceived>
+  </Achievement>
+  <Achievement>
+    <Id>2</Id>
+    <Text>Первая олимпиада!</Text>
+    <PicturePath>CardPictures/code_forces</PicturePath>
+    <isReceived>false</isReceived>
+  </Achievement>
+</ArrayOfAchievement>

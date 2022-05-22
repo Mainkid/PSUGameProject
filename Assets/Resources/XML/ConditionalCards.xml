@@ -1,0 +1,218 @@
+<?xml version="1.0"?>
+<ArrayOfConditionalCard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ConditionalCard>
+    <Id>14</Id>
+    <Text>После репетиции танцев вас пригласили на вечеринку, но завтра экзамен по важному предмету</Text>
+    <Description />
+    <Action1>
+      <Text>Поддаться уговорам</Text>
+      <CharismaChange>3</CharismaChange>
+      <IntelligenceChange>-3</IntelligenceChange>
+      <StaminaChange>-3</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action1>
+    <Action2>
+      <Text>Твёрдое "нет"</Text>
+      <CharismaChange>-3</CharismaChange>
+      <IntelligenceChange>3</IntelligenceChange>
+      <StaminaChange>0</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action2>
+    <PicturePath>CardPictures/sdk_curtain</PicturePath>
+    <Timer>3</Timer>
+  </ConditionalCard>
+  <ConditionalCard>
+    <Id>18</Id>
+    <Text>Вас поймал физрук и дает 2 дополнительных круга. Что будете делать?</Text>
+    <Description />
+    <Action1>
+      <Text>Начать спор </Text>
+      <CharismaChange>-2</CharismaChange>
+      <IntelligenceChange>0</IntelligenceChange>
+      <StaminaChange>-1</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action1>
+    <Action2>
+      <Text>Нет</Text>
+      <CharismaChange>0</CharismaChange>
+      <IntelligenceChange>0</IntelligenceChange>
+      <StaminaChange>-2</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action2>
+    <PicturePath>CardPictures/teacher4_evil</PicturePath>
+    <Timer>3</Timer>
+  </ConditionalCard>
+  <ConditionalCard>
+    <Id>22</Id>
+    <Text>Охранник простил вас на первый раз, но попросил впредь не нарушать.</Text>
+    <Description />
+    <Action1>
+      <Text>Спасибо!</Text>
+      <CharismaChange>0</CharismaChange>
+      <IntelligenceChange>0</IntelligenceChange>
+      <StaminaChange>0</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action1>
+    <Action2>
+      <Text>Промолчать</Text>
+      <CharismaChange>-1</CharismaChange>
+      <IntelligenceChange>0</IntelligenceChange>
+      <StaminaChange>0</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action2>
+    <PicturePath>CardPictures/turnstile</PicturePath>
+    <Timer>3</Timer>
+  </ConditionalCard>
+  <ConditionalCard>
+    <Id>26</Id>
+    <Text>Оказывается вы попали в какую-то тайную группировку, которые решают странные задачи на время. Вы ничего не понимаете, но от вас уже требуют название для команды.</Text>
+    <Description />
+    <Action1>
+      <Text>Что-то умное</Text>
+      <CharismaChange>-1</CharismaChange>
+      <IntelligenceChange>2</IntelligenceChange>
+      <StaminaChange>0</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds>
+        <int>28</int>
+      </ConditionalCardIds>
+    </Action1>
+    <Action2>
+      <Text>Что-то креативное</Text>
+      <CharismaChange>1</CharismaChange>
+      <IntelligenceChange>0</IntelligenceChange>
+      <StaminaChange>0</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds>
+        <int>28</int>
+      </ConditionalCardIds>
+    </Action2>
+    <PicturePath>CardPictures/bothersome_broad_smile</PicturePath>
+    <Timer>3</Timer>
+  </ConditionalCard>
+  <ConditionalCard>
+    <Id>27</Id>
+    <Text>Похоже, вы потратили слишком много! Что же делать?</Text>
+    <Description />
+    <Action1>
+      <Text>Занять у друга</Text>
+      <CharismaChange>-2</CharismaChange>
+      <IntelligenceChange>-1</IntelligenceChange>
+      <StaminaChange>1</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action1>
+    <Action2>
+      <Text>Голодать</Text>
+      <CharismaChange>0</CharismaChange>
+      <IntelligenceChange>-1</IntelligenceChange>
+      <StaminaChange>-3</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action2>
+    <PicturePath>CardPictures/blackberry_minus</PicturePath>
+    <Timer>3</Timer>
+  </ConditionalCard>
+  <ConditionalCard>
+    <Id>28</Id>
+    <Text>Ваше мнение не учли, а команду почему-то назвали "Мы Туристы". Похоже у клуба первое собрание. Вам выдали бумажку с тайным условием и попросили решить. У вас есть две идеи.</Text>
+    <Description />
+    <Action1>
+      <Text>Сложная структура</Text>
+      <CharismaChange>0</CharismaChange>
+      <IntelligenceChange>1</IntelligenceChange>
+      <StaminaChange>-2</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds>
+        <int>31</int>
+      </ConditionalCardIds>
+    </Action1>
+    <Action2>
+      <Text>Перебор</Text>
+      <CharismaChange>0</CharismaChange>
+      <IntelligenceChange>-1</IntelligenceChange>
+      <StaminaChange>-1</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds>
+        <int>32</int>
+      </ConditionalCardIds>
+    </Action2>
+    <PicturePath>CardPictures/code_forces</PicturePath>
+    <Timer>3</Timer>
+  </ConditionalCard>
+  <ConditionalCard>
+    <Id>31</Id>
+    <Text>Вы написали больше 1000 строк кода, но задача так и не зашла. Оказалось, что 150 условий - это плохая идея. Вы получили диплом за "Экстремальный стиль программирования"</Text>
+    <Description />
+    <Action1>
+      <Text>Праздновать! </Text>
+      <CharismaChange>1</CharismaChange>
+      <IntelligenceChange>0</IntelligenceChange>
+      <StaminaChange>0</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action1>
+    <Action2>
+      <Text>Разочароваться!</Text>
+      <CharismaChange>0</CharismaChange>
+      <IntelligenceChange>0</IntelligenceChange>
+      <StaminaChange>-1</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action2>
+    <PicturePath>CardPictures/cup_and_books</PicturePath>
+    <Timer>3</Timer>
+  </ConditionalCard>
+  <ConditionalCard>
+    <Id>32</Id>
+    <Text>Перебор, это конечно была неплохая идея... Программа выполнялась больше часа, а ответ вы так и не получили. Не стоит расстраиваться! Диплом за волю к победе ваш!</Text>
+    <Description />
+    <Action1>
+      <Text>Праздновать! </Text>
+      <CharismaChange>1</CharismaChange>
+      <IntelligenceChange>0</IntelligenceChange>
+      <StaminaChange>0</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action1>
+    <Action2>
+      <Text>Разочароваться!</Text>
+      <CharismaChange>0</CharismaChange>
+      <IntelligenceChange>0</IntelligenceChange>
+      <StaminaChange>-1</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action2>
+    <PicturePath>CardPictures/cup_and_books</PicturePath>
+    <Timer>3</Timer>
+  </ConditionalCard>
+  <ConditionalCard>
+    <Id>33</Id>
+    <Text>Подготовка к экзамену оказалась недостаточной. В деканате недовольны вашей успеваемостью.</Text>
+    <Description />
+    <Action1>
+      <Text>Какой ужас</Text>
+      <CharismaChange>1</CharismaChange>
+      <IntelligenceChange>-3</IntelligenceChange>
+      <StaminaChange>-1</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action1>
+    <Action2>
+      <Text>Мне всё равно</Text>
+      <CharismaChange>-1</CharismaChange>
+      <IntelligenceChange>-3</IntelligenceChange>
+      <StaminaChange>0</StaminaChange>
+      <AchievementId>-1</AchievementId>
+      <ConditionalCardIds />
+    </Action2>
+    <PicturePath>CardPictures/deans_office_evil_woman</PicturePath>
+    <Timer>3</Timer>
+  </ConditionalCard>
+</ArrayOfConditionalCard>
